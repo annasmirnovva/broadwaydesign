@@ -5,14 +5,14 @@
     <link href="./resourses/style.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
-    <h1>Broadway Design</h1>
+    <h1 id="home">Broadway Design</h1>
     <div> <!-- the menu -->
       <ul class="menu">
-        <li>Home</li>
-        <li>Process</li>
-        <li>Work</li>
-        <li>Team</li>
-        <li>Contact</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#team">Team</a><a href="#home"></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
     <div>
@@ -27,13 +27,13 @@
       <h4>Execute</h4>
       <p>We put everything we have into our work.</p>
     </div>
-    <h3>Designed in New York</h3>
-    <h3>Portfolio</h3>
+    <h4 id="newyork">Designed in New York</h4>
+    <h4 id="work">Portfolio</h4>
     <p>Coming Soon</p>
-    <h3>Team</h3>
+    <h4 id="team">Team</h4>
     <p>We're hiring!</p>
-    <h3>Contact</h3>
+    <h4 id="contact">Contact</h4>
     <p>Phone: (555)-555-5555 <br/> E-mail: test@example.com <br/> Twitter: @test</p>
-    <p>&copy;Broadway 2017 Home About Work Team Contact</p>
+    <p class="footer">&copy;Broadway 2017 <a href="#home">Home</a> <a href="#process">About</a> <a href="#work">Work</a> <a href="#team">Team</a> <a href="#contact">Contact</a></p>
   </body>
 </html>
